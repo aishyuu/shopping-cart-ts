@@ -1,0 +1,19 @@
+.footerContainer {
+    background-color: black;
+    color: white;
+}
+
+.footerText {
+    padding: 12px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.footerText > a {
+    color: white;
+    text-decoration: none;
+}
+
+.footerText > a:hover {
+    text-decoration: underline;
+}

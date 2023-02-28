@@ -1,0 +1,57 @@
+.landingContainer {
+    background-image: url('../assets/images/home_background.jpg');
+    height: 90vh;
+}
+
+.landingMask {
+    height: 90vh;
+    background-color: hsla(0, 0%, 0%, 0.4);
+}
+
+.landingText {
+    color: white;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.landingTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.landingMain {
+    font-family: cursive;
+    background-color: black;
+    border-radius: 0.5rem;
+    font-size: 4rem;
+    width: 250px;
+    text-align: center;
+}
+
+.landingSub {
+    letter-spacing: 5px;
+    margin: 12px 0;
+}
+
+.landingEnd {
+    display: flex;
+}
+
+.landingVisit {
+    margin: 0 10px;
+    background-color: black;
+    padding: 3px 10px;
+    border-radius: 0.5rem;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.landingVisit:hover {
+    background-color: white;
+    color: black;
+}
